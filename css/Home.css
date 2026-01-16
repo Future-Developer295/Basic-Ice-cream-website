@@ -1,0 +1,1426 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(241, 250, 251);
+    overflow-x: hidden;
+
+}
+
+nav {
+    display: flex;
+
+}
+
+.Navbar {
+    border-radius: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    margin: 22px 27px 27px 27px;
+
+}
+
+.Navbar ul {
+    list-style: none;
+    gap: 29px;
+    padding: 22px 22px;
+    display: flex;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 7px;
+
+}
+
+.Navbar li {
+    gap: 16px;
+}
+
+.Navbar ul a {
+    text-decoration: none;
+    color: #39a0a7;
+    font-size: 16px;
+
+}
+
+.Navbar ul .colo {
+    color: #5a3956;
+}
+
+.Navbar button {
+    padding: 12px 38px;
+    border-radius: 20px;
+    margin-left: 23rem;
+    background-color: #39A0A7;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border: none;
+}
+
+.Navbar img {
+    margin-left: 10px;
+}
+
+.container {
+    width: 80.5rem;
+    height: 50rem;
+    background-color: #39A0A7;
+    border-radius: 30px;
+    margin: 0px 28px 0px 28px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image {
+    position: absolute;
+    bottom: 0;
+    left: 24rem;
+    z-index: 1;
+}
+
+.chill {
+    font-size: 148px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    left: 19rem;
+    top: 6rem;
+    z-index: -0;
+}
+
+.treat {
+    font-size: 148px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    position: absolute;
+    left: 41rem;
+    top: 14rem;
+    z-index: 1;
+}
+
+.scope {
+    position: absolute;
+    top: 5rem;
+    left: 3rem;
+    animation: smothFade 2s ease-in-out infinite;
+}
+
+.ice-cream {
+    position: absolute;
+    right: 0px;
+    top: 11rem;
+}
+
+.ice-cream img {
+    rotate: -140deg;
+    right: 0px;
+    position: relative;
+    bottom: 17.9rem;
+    padding-top: 12rem;
+    z-index: 2;
+
+}
+
+.ice-cup {
+    position: absolute;
+    top: 19rem;
+    left: 5%;
+    color: #ffffff;
+    transform-origin: center;
+    rotate: -5deg;
+    animation: tilt 1s ease-in-out infinite;
+}
+
+
+@keyframes tilt {
+    0%{
+        rotate: -5deg;
+    }
+    50%{
+        rotate: -9deg;
+    }
+    100%{
+        rotate: -5deg;
+    }
+}
+
+.container .content {
+    position: absolute;
+    bottom: 2rem;
+    left: 4rem;
+}
+
+.container .content h4 {
+    font-size: 24px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.container .content p {
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    max-width: 19rem;
+    line-height: 27px;
+    margin-top: 20px;
+}
+
+.content button {
+    padding: 14px 35px;
+    border: none;
+    background-color: #fd8fb2;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    border-radius: 20px;
+    margin-top: 18px;
+    transition: 0.3s;
+}
+
+.content button a {
+    text-decoration: none;
+    color: white;
+}
+
+.content button:hover {
+
+    font-size: 16px;
+    color: white;
+    background: transparent;
+    background-color: rgb(100, 54, 100);
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.3s ease;
+    transition: 0.3s
+}
+
+.content h5 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    font-size: 20px;
+    margin-top: 2.5rem;
+}
+
+.container span i {
+    color: gold;
+    font-size: 18px;
+}
+
+.content .para {
+    margin-left: 18px;
+    margin-bottom: 15px;
+}
+
+.scope1 {
+    position: absolute;
+    bottom: 3rem;
+    right: -1rem;
+    animation: updown 2s ease-in-out infinite;
+}
+@keyframes updown {
+    0%,100%{
+        transform: translateY(0px);
+      
+    }
+     50%{
+        transform: translateY(-25px);
+        
+    }
+     
+}
+.lolypop {
+    position: absolute;
+    bottom: 4rem;
+    right: 5rem;
+ animation: tilts 2s ease-in-out infinite;
+}
+
+
+@keyframes tilts {
+    0%{
+        rotate: -5deg;
+    }
+    50%{
+        rotate: 7deg;
+    }
+    100%{
+        rotate: -5deg;
+    }
+}
+.end {
+    font-size: 23px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    width: 10rem;
+    height: 23px;
+    position: relative;
+    left: 34rem;
+    bottom: 2rem;
+    background-color: white;
+    color: #5a3956;
+    padding: 15px 28px;
+    z-index: 5;
+    border-radius: 20px;
+}
+
+.end span {
+    font-size: 20px;
+}
+
+.road-lines {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.road-line {
+    position: absolute;
+    width: 120%;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 50%;
+    border-bottom: none;
+    opacity: 0.7;
+}
+
+.line-1 {
+    top: 20%;
+    left: -10%;
+    width: 140%;
+}
+
+.line-2 {
+    top: 45%;
+    left: -15%;
+    width: 130%;
+}
+
+.line-3 {
+    top: 70%;
+    left: -5%;
+    width: 110%;
+}
+
+/* Container1 start */
+
+.container1 {
+    width: 80.5rem;
+    height: 100rem;
+    background-color: #A8A3D8;
+    border-radius: 30px;
+    margin: 0px 28px 0px 28px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.container1 .iner .boll-ice {
+    position: absolute;
+    top: -0.5rem;
+    left: -2rem;
+}
+
+.container1 .iner .boll-cream {
+    position: absolute;
+    top: -1rem;
+    right: -2.5rem;
+}
+
+.box {
+    width: 75rem;
+    height: 90rem;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+
+}
+
+.box h1 {
+    color: #946F8C;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 44px;
+    position: relative;
+    top: 7rem;
+}
+
+.product {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 13rem;
+}
+
+.product1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 9rem;
+}
+
+.box h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.item {
+    width: 18rem;
+    height: 22rem;
+    border-radius: 20px;
+    position: relative;
+}
+
+.item img {
+    border: 5px solid #39A0A7;
+    border-radius: 20px;
+    opacity: 1;
+   
+}
+/* .item img::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.19);
+    opacity: 0;
+} */
+.blur{
+    width: 18.1rem;
+    height: 20rem;
+    border-radius: 20px;
+    background-color: black;
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+}
+.blur:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.item-detail h3 {
+    color: #E34F4D;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+   
+}
+
+.item-detail p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #303030;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.box button {
+    display: flex;
+    justify-content: center;
+    padding: 15px 40px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    background-color: #5A3956;
+    border: none;
+    border-radius: 20px;
+    color: white;
+
+}
+
+.box-end button {
+    position: absolute;
+    bottom: 12rem;
+    left: 34rem;
+
+}
+
+.box-end button a {
+    text-decoration: none;
+    color: white;
+}
+
+.box-end button:hover {
+    font-size: 16px;
+    color: white;
+    background: transparent;
+    background-color: #fd8fb2;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.3s ease;
+    transition: 0.3s
+}
+
+.end-ice {
+    position: absolute;
+    bottom: 0rem;
+    right: -1rem;
+}
+
+/* Container 2 start */
+.container2 {
+    width: 90.5rem;
+    height: 54rem;
+    margin: 40px 28px 0px 28px;
+    position: relative;
+    margin-top: 9rem;
+}
+
+.container2 video {
+    position: absolute;
+    bottom: 0rem;
+    left: 22rem;
+
+}
+
+.container2 h1 {
+    position: relative;
+    left: 29rem;
+    color: #946F8C;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    top: 3rem;
+}
+
+.recipe {
+    width: 22rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 10rem;
+    left: 7rem;
+}
+
+.recipe img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.recipe h3 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #5A3956;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.recipe p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: auto;
+    color: #5A3956;
+}
+
+.recipe1 {
+    width: 22rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 26rem;
+}
+
+.recipe1 img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.recipe1 h3 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #5A3956;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.recipe1 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: auto;
+    color: #5A3956;
+}
+
+.recipe2 {
+    width: 22rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 41rem;
+    left: 7rem;
+}
+
+.recipe2 img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.recipe2 h3 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #5A3956;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.recipe2 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: auto;
+    color: #5A3956;
+}
+
+.recipe3 {
+    width: 22rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 11rem;
+    right: 11rem;
+}
+
+.recipe3 img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.recipe3 h3 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #5A3956;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.recipe3 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: auto;
+    color: #5A3956;
+}
+
+.recipe4 {
+    width: 22rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 27rem;
+    right: 8rem;
+}
+
+.recipe4 img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.recipe4 h3 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #5A3956;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.recipe4 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: auto;
+    color: #5A3956;
+}
+
+.recipe5 {
+    width: 22rem;
+    height: 11rem;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 41rem;
+    right: 15rem;
+}
+
+.recipe5 img {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.recipe5 h3 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #5A3956;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.recipe5 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin: auto;
+    color: #5A3956;
+}
+
+
+#rotate {
+    position: absolute;
+    top: -7rem;
+    left: 1rem;
+    animation: rotateLoop 12s linear infinite;
+}
+
+@keyframes rotateLoop {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.container2 button {
+    padding: 14px 34px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    background-color: #fd85b2;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    position: absolute;
+    bottom: 0rem;
+    left: 37.5rem;
+    transition: 0.3s;
+}
+
+.container2 button a {
+    text-decoration: none;
+    color: white;
+}
+
+.container2 button:hover {
+    font-size: 16px;
+    color: white;
+    background: transparent;
+    background-color: rgb(100, 54, 100);
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.3s ease;
+    transition: 0.3s
+}
+
+/* container3 start */
+.container3 {
+    width: 80.5rem;
+    height: 50rem;
+    background-color: #39A0A7;
+    border-radius: 30px;
+    margin: 0px 28px 0px 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 10rem;
+}
+
+.rotate1 {
+    position: absolute;
+    top: -2rem;
+    left: 1rem;
+    animation: rotateLoop 12s linear infinite;
+}
+
+@keyframes rotateLoop {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.container3 .h1 {
+    position: absolute;
+    top: 4rem;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+
+.content1 p {
+    font-size: 15px;
+    color: #5A3956;
+    ;
+    margin-bottom: 1rem;
+}
+
+.oval img {
+    border: 5px solid #5A3956;
+    border-width: 6px 6px 6px 6px;
+    border-color: var(--e-global-color-96291e1);
+    border-radius: 20em 20em 20em 20em;
+    width: 16rem;
+    height: 28rem;
+    margin-left: 10rem;
+    position: absolute;
+    top: 17rem;
+    right: 18rem;
+}
+
+.content1 {
+    width: 17rem;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 15rem;
+    left: 12rem;
+
+}
+
+.content1 h3 {
+    font-size: 24px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #5A3956;
+}
+
+.container3 .top {
+    margin-bottom: 5rem;
+}
+
+.container3 .bottom {
+    margin-top: 4rem;
+}
+
+/* container 4 start */
+
+.container4 {
+    width: 80.5rem;
+    height: 45rem;
+    background-color: #ffdbe2;
+    border-radius: 30px;
+    margin: 0px 28px 0px 28px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.rotate-ice {
+    width: 45%;
+    height: 52rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+
+}
+
+.content-ice {
+    width: 40%;
+    height: 52rem;
+    position: relative;
+    margin-top: 7rem;
+}
+
+.content-ice h1 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #e3454d;
+    font-size: 45px;
+    position: absolute;
+    top: 3rem;
+}
+
+.content-ice .weekly {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #e3454d;
+    position: absolute;
+    top: 11rem;
+    max-width: 27rem;
+}
+
+.animation  {
+    width: 20%;
+    height: 52rem;
+}
+.img{
+    width: 20%;
+    height: 52rem;
+}
+.rotate-ice img {
+    position: absolute;
+    bottom: 6rem;
+    left: 4rem;
+}
+
+.rotate-ice video {
+    position: absolute;
+    bottom: 10rem;
+    left: 2rem;
+}
+
+.day1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 16rem;
+}
+
+.day1 h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #303030;
+    font-size: 20px;
+}
+
+.day1 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #303030;
+    padding-left: 2rem;
+}
+
+.day2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 19rem;
+}
+
+.day2 h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #303030;
+    font-size: 20px;
+}
+
+.day2 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #303030;
+    padding-left: 2rem;
+}
+
+.day3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 22rem;
+}
+
+.day3 h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #303030;
+    font-size: 20px;
+}
+
+.day3 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #303030;
+    padding-left: 2rem;
+}
+
+.day4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 25rem;
+}
+
+.day4 h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #303030;
+    font-size: 20px;
+}
+
+.day4 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #303030;
+    padding-left: 2rem;
+}
+
+.day5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 28rem;
+}
+
+.day5 h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #303030;
+    font-size: 20px;
+}
+
+.day5 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #303030;
+    padding-left: 2rem;
+}
+
+.day6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 31rem;
+}
+
+.day6 h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #303030;
+    font-size: 20px;
+}
+
+.day6 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #303030;
+    padding-left: 2rem;
+}
+
+.day7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 34rem;
+}
+
+.day7 h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #303030;
+    font-size: 20px;
+}
+
+.day7 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #303030;
+    padding-left: 2rem;
+}
+
+.animation .scope3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.animation .flode {
+    position: absolute;
+    bottom: 13rem;
+    right: 0;
+}
+
+.container5 {
+    display: flex;
+    gap: 20px;
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+    padding: 15px 25px;
+}
+
+.hover1 {
+    width: 15rem;
+    height: 14rem;
+    background-color: red;
+    border-radius: 20px;
+    position: relative;
+}
+
+.hover1 i {
+    position: absolute;
+    top: 5.5rem;
+    left: 6rem;
+    font-size: 29px;
+    display: none;
+    padding: 16px 18px;
+    background-color: white;
+    border-radius: 50%;
+    transition: 5s;
+
+}
+
+.hover1:hover i {
+    display: unset;
+    transition: 5s;
+}
+
+.container5 .hover1 img {
+    border-radius: 20px;
+    width: 15rem;
+    height: 14rem;
+    cursor: pointer;
+}
+
+.footer {
+    width: 80.5rem;
+    height: 25rem;
+    background-color: #39A0A7;
+    border-radius: 30px;
+    margin: 0px 28px 0px 28px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 5rem;
+
+}
+
+.details1 {
+    width: 20%;
+    height: 25rem;
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+}
+
+.details1 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.details1 i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.details2 {
+    position: absolute;
+    top: 6rem;
+    left: 20rem;
+}
+
+.details2 h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.details2 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+.details2 p span {
+    margin-left: 15px;
+    max-width: 5rem;
+}
+
+.details2 i {
+    font-size: 20px;
+}
+
+.details3 {
+    position: absolute;
+    top: 6rem;
+    left: 36rem;
+}
+
+.details3 h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.details3 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+.details4 {
+    position: absolute;
+    top: 6rem;
+    left: 49rem;
+}
+
+.details4 h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.details4 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+.details4 a {
+    text-decoration: none;
+    color: white;
+}
+
+.details5 {
+    position: absolute;
+    top: 6rem;
+    left: 60rem;
+}
+
+.details5 h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.details5 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+.footer .crunch {
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.choclate {
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #303030;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.header {
+    width: 100%;
+    height: 35rem;
+    background-color: #39a0a7;
+    position: relative;
+}
+
+.About {
+    position: absolute;
+    bottom: 34rem;
+}
+
+.About1 {
+    position: absolute;
+    bottom: 0rem;
+}
+
+.border {
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+}
+
+.header h1 {
+    position: absolute;
+    bottom: 16rem;
+    left: 34rem;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 50px;
+    color: white;
+}
+
+.About-scope {
+    position: absolute;
+    top: 21rem;
+    left: 3rem;
+}
+
+.About1-scope {
+    position: absolute;
+    top: 23rem;
+    right: 4rem;
+}
+
+.container6 {
+    width: 80.5rem;
+    height: 25rem;
+    background-color: #39A0A7;
+    border-radius: 30px;
+    margin: 0px 28px 0px 28px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 5rem;
+}

@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rajdhani:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rowdies:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+nav {
+    display: flex;
+
+}
+
+body {
+    background-color: #f5f3f3;
+
+    overflow-x: hidden;
+
+}
+
+.Navbar {
+    border-radius: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    margin: 22px 27px 27px 27px;
+
+}
+
+.Navbar ul {
+    list-style: none;
+    gap: 29px;
+    padding: 22px 22px;
+    display: flex;
+    align-items: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 7px;
+
+}
+
+.Navbar li {
+    gap: 16px;
+}
+
+.Navbar ul a {
+    text-decoration: none;
+    color: #39a0a7;
+    font-size: 16px;
+
+}
+
+.frame {
+    background-color: #5a3956;
+}
+
+.Navbar ul .colo {
+    color: #5a3956;
+}
+
+.Navbar button {
+    padding: 12px 38px;
+    border-radius: 20px;
+    margin-left: 23rem;
+    background-color: #39A0A7;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    border: none;
+}
+
+.Navbar img {
+    margin-left: 10px;
+}
+
+.png1 {
+    position: absolute;
+    right: -71px;
+    top: 25rem;
+    z-index: -1;
+}
+
+.png2 {
+    position: absolute;
+    left: -71px;
+    top: 25rem;
+    z-index: -1;
+}
+
+.footer {
+    width: 80.5rem;
+    height: 25rem;
+    background-color: #39A0A7;
+    border-radius: 30px;
+    margin: 0px 28px 0px 28px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+
+}
+
+.f-p {
+    position: relative;
+    top: 39rem;
+}
+
+.details1 {
+    width: 20%;
+    height: 25rem;
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+}
+
+.details1 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.details1 i {
+    padding: 10px;
+    border-radius: 50%;
+    background-color: white;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.details2 {
+    position: absolute;
+    top: 6rem;
+    left: 20rem;
+}
+
+.details2 h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.details2 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+.details2 p span {
+    margin-left: 15px;
+    max-width: 5rem;
+}
+
+.details2 i {
+    font-size: 20px;
+}
+
+.details3 {
+    position: absolute;
+    top: 6rem;
+    left: 36rem;
+}
+
+.details3 h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.details3 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+.details4 {
+    position: absolute;
+    top: 6rem;
+    left: 49rem;
+}
+
+.details4 h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.details4 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+.details4 a{
+    color: white;
+    text-decoration: none;
+}
+.details5 {
+    position: absolute;
+    top: 6rem;
+    left: 60rem;
+}
+
+.details5 h2 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.details5 p {
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 1rem;
+}
+
+.footer .crunch {
+    position: absolute;
+    top: 0rem;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.last {
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #303030;
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+}
+
+.header {
+    width: 100%;
+    height: 35rem;
+    background-color: #39a0a7;
+    position: relative;
+}
+
+.About {
+    position: absolute;
+    bottom: 34rem;
+    width: 100%;
+}
+
+.About1 {
+    position: absolute;
+    bottom: 0rem;
+}
+
+.border {
+    position: absolute;
+    bottom: 0rem;
+    width: 100%;
+}
+
+.header h1 {
+    position: absolute;
+    bottom: 16rem;
+    left: 33rem;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 50px;
+    color: white;
+}
+
+.About-scope {
+    position: absolute;
+    top: 13rem;
+    left: 2rem;
+}
+
+
+.About1-scope {
+    position: absolute;
+    top: 15rem;
+    right: 2rem;
+}
+
+.crunchi {
+    position: absolute;
+    bottom: -8rem;
+    left: 0rem;
+    z-index: -2;
+}
+
+.choco {
+    position: absolute;
+    bottom: -8rem;
+    right: 9rem;
+    z-index: -2;
+}
+
+.choco1 {
+    position: absolute;
+    bottom: -6rem;
+    right: -5rem;
+    z-index: -2;
+    rotate: 254deg;
+}
+
+.container {
+    width: 84.5rem;
+    height: 40rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 3rem;
+
+}
+
+.container .map {
+    width: 42%;
+    height: 31rem;
+    position: relative;
+    margin-top: 3rem;
+    margin: 0px 28px 0px 28px;
+    border: 25px solid white;
+    border-radius: 10px;
+}
+
+.container .map iframe {
+    border-radius: 10px;
+}
+
+.container .contact-us {
+    width: 50%;
+    height: 35rem;
+    margin: 0px 28px 0px 28px;
+    position: relative;
+    margin-top: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .contact-us {
+    width: 50%;
+    height: 31rem;
+    position: relative;
+    margin-top: 3rem;
+    margin: 0px 28px 0px 28px;
+}
+
+.container .contact-us h1 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #e34f4d;
+    font-size: 40px;
+    margin-left: 15px;
+}
+
+.container .contact-us p {
+    font-size: 16px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #303030;
+    margin-left: 15px;
+}
+
+.chat1 {
+    margin-top: 25px;
+    width: 14rem;
+    height: 6rem;
+
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+}
+
+.chat1 .image {
+    width: 20rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.chat1 .text {
+    width: 15rem;
+    height: 6rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.chat1 .text h1 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #303030;
+}
+
+.chat2 {
+    margin-top: 25px;
+    width: 28rem;
+    height: 6rem;
+    /* margin-left: 15px; */
+    position: relative;
+    left: 0rem;
+    display: flex;
+}
+
+.chat2 .image {
+    width: 5rem;
+    /* height: 6rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.chat2 .text {
+
+    height: 6rem;
+    display: flex;
+    /* margin-left: 15px; */
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.chat2 .text h1 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #303030;
+}
+
+.chat3 {
+    margin-top: 25px;
+    width: 14rem;
+    height: 6rem;
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+    left: 26rem;
+    bottom: 19rem;
+}
+
+.chat3 .image {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 113px;
+}
+
+.chat3 .text p {
+    width: 15rem;
+    height: 6rem;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.chat3 .text h1 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #303030;
+}
+
+.chat4 {
+    margin-top: 25px;
+    width: 14rem;
+    height: 6rem;
+    margin-left: 15px;
+    position: relative;
+    display: flex;
+    left: 26rem;
+    bottom: 19rem;
+}
+
+.chat4 .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    margin-top: 113px;
+}
+
+.chat4 .text p {
+    width: 15rem;
+    height: 6rem;
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+
+.chat4 .text p {
+    max-width: 400px
+}
+
+.chat4 .text h1 {
+    font-family: "Rowdies", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #303030;
+}
